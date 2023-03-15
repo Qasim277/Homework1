@@ -12,41 +12,40 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 ```
 
 **Question 1** With Markdown write a sentence that has one word in bold.
+This is **bold**.
 
-Write Your Answer Here!
 
 **Question 2** With Markdown write a sentence that has one word in italic.
 
-Write Your Answer Here!
+This is *italic*
 
 **Question 3** With Markdown write a sentence that has one word in italic bold.
 
-Write Your Answer Here!
+This is ***italic bold***.
 
 **Question 4** With Markdown write an unordered list with three items.
 
-Write Your Answer Here!
+This is **bold** ***and*** *italic*
 
 **Question 5** With Markdown write an ordered list with three items.
-
-Write Your Answer Here!
+This **bold** *italic* ***and ordered***
 
 **Question 6** With Markdown give a link to your favorite webpage.
-
-Write Your Answer Here!
+This (https://www.ankara.edu.tr/).
 
 **Question 7** With Markdown add a cat picture.
-
-Write Your Answer Here!
+ https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHw%3D&w=1000&q=80
 
 **Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
 
-Write Your Answer Here!
+$\sum_{n=2}^{14} n^2$
 
 **Question 9** With $LaTeX$ write your favorite equation in block form.
 
-Write Your Answer Here!
+$e=mc^2$.
 
 **Question 10** In a code chunk calculate 3 + 4.
-
-Write Your Answer Here!
+```{r}
+result <- 3 + 4
+print(result)
+```
